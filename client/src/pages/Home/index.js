@@ -1,14 +1,19 @@
-import HomeComponent from "../../components/Home";
+
+// Import Bootstrap Components
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import "./index.css" // Leave this below the bootstrap components to override them
+
+// Import Project Components
+import HeaderMain from '../../components/Header';
+import SideBar from '../../components/SideBar';
+
 
 function Home() {
-
-
-
-    /* ---------------------------- Component Render ---------------------------- */
     return (
-            <div>    
-                <HomeComponent></HomeComponent>
-            </div>
+        <SideBar />
     );
 }
 
