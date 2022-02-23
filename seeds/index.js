@@ -4,6 +4,7 @@
 
 // Import all the seed data functions created in this directory
 const seedEmployer = require('./employer-seeds');
+const seedAgent = require('./agent-seeds');
 
 // Import the database connection instance from connection / config
 const sequelize = require('../config/connection');
@@ -21,6 +22,9 @@ const seedAll = async () => {
   await sequelize.sync({ force: true }); // Force true adds a drop table if exists- so it will override any existing data we have in there. 
 
   console.log('\n----- DATABASE SYNCED -----\n');
+
+  await seedAgent();
+  console.log('\n----- AGENT SEEDED -----\n');
 
   await seedEmployer();
   console.log('\n----- EMPLOYER SEEDED -----\n');

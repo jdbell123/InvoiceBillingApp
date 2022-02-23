@@ -104,6 +104,10 @@ Employer.init(
                 isDecimal: true,
             }
         },
+        agent_id: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
     },
     {
         sequelize,

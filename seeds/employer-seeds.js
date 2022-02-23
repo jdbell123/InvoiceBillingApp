@@ -25,6 +25,7 @@ const employerData = [
         setup_fee: 0.00,
         renewal_month: 01,
         renewal_fee: 50.00,
+        agent_id: 1,
     },
     {
         code: "ABI9001",
@@ -42,6 +43,7 @@ const employerData = [
         setup_fee: 0.00,
         renewal_month: 02,
         renewal_fee: 50.00,
+        agent_id: 1,
     },
     {
         code: "ABI9002",
@@ -59,6 +61,7 @@ const employerData = [
         setup_fee: 0.00,
         renewal_month: 03,
         renewal_fee: 50.00,
+        agent_id: 1,
     },
     {
         code: "ABI9003",
@@ -76,6 +79,7 @@ const employerData = [
         setup_fee: 0.00,
         renewal_month: 04,
         renewal_fee: 50.00,
+        agent_id: 2,
     },
     {
         code: "ABI9004",
@@ -93,6 +97,7 @@ const employerData = [
         setup_fee: 0.00,
         renewal_month: 05,
         renewal_fee: 50.00,
+        agent_id: 2,
     },
 ];
 
