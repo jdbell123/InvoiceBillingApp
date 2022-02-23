@@ -1,10 +1,16 @@
-const { Employer } = require("../models");
+const { Employer, Agent } = require("../models");
 
 // Defining methods for the employerController
 module.exports = {
   findAll: async function (req, res) {
     try {
       const employerData = await Employer.findAll({
+        include: [
+          {
+            model: Agent,
+            attributes: ['agency_name', 'contact_name'],
+          },
+        ],
       });
       res.status(200).json(employerData);
     } catch (err) {
@@ -41,7 +47,8 @@ module.exports = {
         minimum_fee: req.body.minimum_fee,
         setup_fee: req.body.setup_fee,
         renewal_month: req.body.renewal_month,
-        renewal_fee: req.body.renewal_fee
+        renewal_fee: req.body.renewal_fee,
+        agent_id: req.body.agent_id,
       })
       res.status(200).json({ newEmployer });
     } catch (err) {
