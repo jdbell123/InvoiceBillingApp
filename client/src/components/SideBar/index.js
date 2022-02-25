@@ -2,106 +2,95 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 
-// All Styling Objects
-const style_Container = {
-    // color: 'white',
-};
+
 
 function SideBar() {
     return (
-        <div className="d-inline-block bg-dark vh-100" style={style_Container}>
-            <ul className="nav nav-fill flex-column mb-auto text-white">
-                
-                {/* Nav Links */}
-                <li className="nav-item">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Set Processing Dates
-                    </a>
-                </li>
-                <hr className="m-0"/>
+        <ul className="nav nav-fill flex-column mb-auto text-white">
+            <li className="nav-item">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Set Processing Dates
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Import EC Data
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Import EC Data
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Pay Detail Process
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Pay Detail Process
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Pay Detail Process
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Pay Detail Process
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Create Billing Reports
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Create Billing Reports
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Create Group Info Report
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Create Group Info Report
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Create IIF Files
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Create IIF Files
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Run NPY Delete
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Run NPY Delete
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Create Division EDI Import File
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Create Division EDI Import File
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Import Division EDI File
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Import Division EDI File
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Create Group Balance Report
-                    </a>
-                </li>
-                <hr className="m-0"/>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Create Group Balance Report
+                </a>
+            </li>
+            <hr className="m-0" />
 
-                <li className="nav-item ">
-                    <a href="#" className="nav-link active text-light" aria-current="page">
-                        Overrides
-                    </a>
-                </li>
-                <hr className="m-0"/>
-
-
-
-
-            </ul>
-        </div>
+            <li className="nav-item ">
+                <a href="#" className="nav-link active text-light" aria-current="page">
+                    Overrides
+                </a>
+            </li>
+            <hr className="m-0" />
+        </ul>
     )
 }
 
