@@ -2,90 +2,90 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 
-
+import "./index.css"
 
 function SideBar() {
     return (
-        <ul className="nav nav-fill flex-column mb-auto text-white">
+        <ul className="nav nav-fill flex-column mb-auto text-blue">
             <li className="nav-item">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-text nav-link active" aria-current="page">
                     Set Processing Dates
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Import EC Data
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Pay Detail Process
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Pay Detail Process
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Create Billing Reports
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Create Group Info Report
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Create IIF Files
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Run NPY Delete
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Create Division EDI Import File
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Import Division EDI File
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Create Group Balance Report
                 </a>
             </li>
             <hr className="m-0" />
 
             <li className="nav-item ">
-                <a href="#" className="nav-link active text-light" aria-current="page">
+                <a href="#" className="nav-link active" aria-current="page">
                     Overrides
                 </a>
             </li>
