@@ -3,7 +3,7 @@ import "./index.css"
 function HeaderMain() {
     return (
             <div>    
-                <h1 class="text">Americomp Benefits, Inc. Billing App</h1>
+                <h1 className="text">Americomp Benefits, Inc. Billing App</h1>
             </div>
     );
 }
