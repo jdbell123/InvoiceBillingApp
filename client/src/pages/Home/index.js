@@ -17,7 +17,7 @@ function Home() {
             <Container>
                 <Row>
                     <Col className="col-lg-12 align-items-center">
-                        <Test1></Test1>
+                        <Test1 />
                     </Col>
                 </Row >
             </Container >

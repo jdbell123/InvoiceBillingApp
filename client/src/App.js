@@ -1,31 +1,35 @@
 import './App.css';
 
 // Infra Imports
-import { BrowserRouter as Router, Route, Routes, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // Page Imports
 import Home from "./pages/Home";
 import Agent from "./pages/Agent";
+import Overview from './pages/Overview';
 
 // Component Imports
-import Wrapper from './components/Wrapper';
+import SideBar from './components/SideBar';
 
 function App() {
 
   return (
     <Router>
-      <div data-component="DivInRouter" className="my-0">
-          <Routes>
-            <Route element={<Wrapper />}>
-              <Route path="*" element={<Home />}></Route>
-              <Route exact path="/agent" element={<Agent />}></Route>
-            </Route>
-          </Routes>
-      </div>
-    </Router >
-
+    <SideBar />
+    <Routes>
+      <Route path='/overview' exact element={<Overview />} />
+      <Route path='/reports' exact element={<Home />} />
+      <Route path='/reports/billing' exact element={<Home />} />
+      <Route path='/reports/employer' exact element={<Home />} />
+      <Route path='/reports/employerbalance' exact element={<Home />} />
+      <Route path='/agent' exact element={<Agent />} />
+      <Route path='/agent/add' exact element={<Agent />} />
+      <Route path='/agent/modify' exact element={<Agent />} />
+      <Route path='/agent/delete' exact element={<Agent />} />
+      <Route path='*' element={<Home />} />
+    </Routes>
+  </Router>
   );
-
 
 }
 

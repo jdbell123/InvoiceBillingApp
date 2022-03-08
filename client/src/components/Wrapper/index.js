@@ -9,7 +9,8 @@ import SideBar from "../SideBar";
 function Wrapper() {
 
     return (
-        <main className="d-inline-block bg-light vh-100" >
+        // <main className="d-inline-block bg-dark vh-100" >
+        <main className="bg-light vh-100" >
             <Row>
                 <Header />
             </Row>
